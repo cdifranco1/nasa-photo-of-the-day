@@ -26,6 +26,8 @@ function App() {
   return (
     <Container>
       <PhotoCard 
+        title={data.title}
+        copyright={data.copyright}
         src={data.url}
         date={data.date}
         explanation={data.explanation}

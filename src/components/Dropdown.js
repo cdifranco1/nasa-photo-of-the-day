@@ -8,9 +8,8 @@ const DatesDropdown = (props) => {
 
   const toggle = () => setDropdownOpen(prevState => !prevState);
 
-  let today = new Date();
-
   useEffect(() => {
+    let today = new Date();
     const generateDates = (startDate) => {
       const datesArr = [];
       let prevDay;
